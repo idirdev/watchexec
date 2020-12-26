@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/watchexec",
+  "version": "1.0.0",
+  "description": "Watch files and execute commands on changes",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/watchexec.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "bin": {
+    "watchexec": "bin/cli.js"
+  }
+}
